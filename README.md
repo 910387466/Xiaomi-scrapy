@@ -42,6 +42,8 @@ rules = (
  scrapy crawl xiaomi  //或者 scrapy  crawl xiaomi -L WARNING  为不输出log内容，只输出自定义的输出。
  
  scrapy crawl xiaomi -s LOG_FILE=scrapy.log   //将log内容保存到文件。
+ 
+ scrapy crawl xiaomi -o name.json    //在命令行中输出json数据，一般用在初步验证程序的正确性，谨慎使用为数据的最终输出结果。
 
 ```
  
