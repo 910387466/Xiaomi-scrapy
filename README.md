@@ -43,7 +43,7 @@ rules = (
  
  scrapy crawl xiaomi -s LOG_FILE=scrapy.log   //将log内容保存到文件。
  
- scrapy crawl xiaomi -o name.json    //在命令行中输出json数据，一般用在初步验证程序的正确性，谨慎使用为数据的最终输出结果。
+ scrapy crawl xiaomi -o name.json    //【o 字母不是数字】在命令行中输出json数据，一般用在初步验证程序的正确性，谨慎使用为数据的最终输出结果。
 
 ```
  
